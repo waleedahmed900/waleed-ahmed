@@ -4053,7 +4053,7 @@ h1 .small-border {
 
 h1.big,
 .h1_big {
-    font-size: 64px;
+    font-size: 50px;
     margin: 0;
     line-height: 70px;
     text-transform: uppercase;
@@ -6942,7 +6942,7 @@ i.font60 {
 
 .progressbar {
   display: inline-block;
-  height: 240px;
+  height: 150px;
 }
 
 .circle {
@@ -6956,12 +6956,15 @@ i.font60 {
 }
 
 .circle canvas {
+    width: 100px !important;
+  height: 100px !important;
+  border-radius: 50%;
   vertical-align: middle;
 }
 
 .circle div {
   position: absolute;
-  top: 80px;
+  top: 35px;
   left: 0;
   width: 100%;
   text-align: center;
@@ -6985,11 +6988,11 @@ i.font60 {
   margin-top: 12px;
 }
 
-.progressbar h4{
+.progressbar h5{
     position: absolute;
     text-align: center;  
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     left: 0;
     right: 0;
     bottom: 0;
